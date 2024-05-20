@@ -1,0 +1,27 @@
+/* styles.css */
+@keyframes move-left-to-right {
+    0% {
+      transform: translateX(2);
+    }
+    100% {
+      transform: translateX(20%);
+    }
+  }
+  
+  @keyframes move-right-to-left {
+    0% {
+      transform: translateX(30%);
+    }
+    100% {
+      transform: translateX(70);
+    }
+  }
+  
+  .move-left-to-right {
+    animation: move-left-to-right 5s linear infinite;
+  }
+  
+  .move-right-to-left {
+    animation: move-right-to-left 2s linear infinite;
+  }
+  

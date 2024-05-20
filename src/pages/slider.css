@@ -1,0 +1,49 @@
+.left-panel {
+    position: relative;
+    flex-direction: row;
+    height: 100vh;
+    margin-right: 70px;
+    
+}
+
+.sidebar {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 80px;
+    background-color: #b19cd9;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    color: #1b1b1b;
+    
+    font-size: 25px;
+    overflow: hidden;
+}
+
+.sidebar-content {
+    display: inline-block;
+    white-space: nowrap;
+    font-weight: bold;
+    animation: moveText 10s linear infinite;
+    letter-spacing: 1px;
+    padding: 10px;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translateY(100%);
+    }
+    40% {
+        transform: translateY(0%);
+    }
+    50% {
+        transform: translateY(0%);
+    }
+    90% {
+        transform: translateY(-100%);
+    }
+    100% {
+        transform: translateY(-100%);
+    }
+}

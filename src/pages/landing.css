@@ -1,0 +1,73 @@
+landing.css
+
+body{
+    background-color: black;
+    color:white
+}
+
+.main{
+    display: inline-flex;
+}
+
+
+
+
+.one{
+    width: 850px;
+    height: 710px;
+    border: 1px solid white;
+    margin-left: 35px;
+    background-color: rgb(28, 26, 26);
+
+}
+
+
+
+.two{
+    width: 500px;
+    height: 720px;
+    border: 1px solid white;
+    background-color: rgb(28, 26, 26);
+    color:white
+}
+
+ h2{
+    
+    margin-top:150px;
+    font-size: 40px;
+
+
+}
+p{
+    font-size:25px ;
+}
+h4{
+color:white;
+padding-right: 30px;
+}
+
+
+
+.artist-lineup img {
+    width: 120px;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+
+.im1 {
+    left: -160px; /* Adjust position as needed */
+    z-index: 1;
+}
+
+.im2 {
+    z-index: 2;
+    transform: scale(1.1); /* Makes the middle image slightly larger */
+}
+
+.im3 {
+    left: 160px; /* Adjust position as needed */
+    z-index: 1;
+}
